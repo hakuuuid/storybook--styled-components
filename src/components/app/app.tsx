@@ -1,5 +1,5 @@
 import React from "react";
-import Select from "../select";
+import Input from "../input";
 import Button from "../button";
 import Link from "../link";
 import Checkbox from "../checkbox";
@@ -9,7 +9,7 @@ type Props = {}
 const App: React.FC<Props> = () => {
 	return (
 		<>
-			<Select/>
+			<Input/>
 			<div>
 				<Button> What? </Button>
 			</div>

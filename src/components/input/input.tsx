@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 type Props = {}
 
-const Select: React.FC<Props> = () => {
+const Input: React.FC<Props> = () => {
 	return (
 		<Grid>
 			<StyledLabel className="label" htmlFor="input"> Some label </StyledLabel>
@@ -52,4 +52,4 @@ const StyledInput = styled.input`
     }
 `
 
-export default Select
+export default Input
